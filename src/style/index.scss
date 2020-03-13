@@ -1,5 +1,40 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-body .container #row {
-  height: 50%;
+.card-container {
+  min-height: 500px;
+  border-radius: 15px;
+  min-width: 400px;
+  padding-top: 0;
+  padding-bottom: o;
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.suite {
+  font-size: 125px;
+}
+
+.number {
+  font-size: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Permanent Marker", cursive;
+}
+
+#suite-bottom {
+  position: relative;
+  margin-right: 40px;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#suite-top {
+  position: relative;
+  margin-right: auto;
+  margin-left: 20px;
+  margin-bottom: 25px;
 }

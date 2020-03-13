@@ -38,12 +38,10 @@ window.onload = function() {
         return "hearts";
       case "♦":
         return "diamonds";
-      default:
-        return "";
     }
   };
 
-  const suiteEl = Array.from(document.querySelectorAll(".suite"));
+  const suiteEl = document.querySelectorAll(".suite");
   const numberEl = document.querySelector(".number");
 
   const suitevalue = selectRandomIndex(suite);
